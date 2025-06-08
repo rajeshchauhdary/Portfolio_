@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated Background Shapes -->
+    <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#home">RC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="home-section d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="mb-3">Welcome to My Portfolio</h1>
+                    <p class="lead mb-4">A passionate frontend developer creating modern web experiences</p>
+                    <div class="cta-buttons d-flex justify-content-center gap-3 flex-wrap mb-4">
+                        <a href="#projects" class="btn btn-custom"><i class="bi bi-eye"></i> View Projects</a>
+                        <a href="#contact" class="btn btn-custom"><i class="bi bi-envelope"></i> Contact Me</a>
+                    </div>
+                    <div class="social-links d-flex justify-content-center gap-3">
+                        <a href="https://github.com/rajeshchauhdary/desktop-tutorial.git" class="social-icon" target="_blank" title="GitHub">
+                            <i class="bi bi-github"></i>
+                            <span class="social-tooltip">GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rajesh-chaudhary-9a6242273" class="social-icon" target="_blank" title="LinkedIn">
+                            <i class="bi bi-linkedin"></i>
+                            <span class="social-tooltip">LinkedIn</span>
+                        </a>
+                        <a href="https://x.com/rajesh354422558?s=09" class="social-icon" target="_blank" title="Twitter">
+                            <i class="bi bi-twitter-x"></i>
+                            <span class="social-tooltip">Twitter</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container py-5">
+        <h2 class="text-center mb-5">About Me</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="about-card p-4">
+                    <div class="about-header mb-4">
+                        <i class="bi bi-person-circle fs-1 d-block text-center mb-3"></i>
+                        <h3 class="text-center">Rajesh Chaudhary</h3>
+                        <p class="text-center text-muted">Computer Science Student & Web Developer</p>
+                    </div>
+                    <div class="about-content">
+                        <p class="lead text-center mb-4">I'm a passionate Computer Science student with a focus on web development and software engineering. Currently participating in the LSPP 2025 60-day challenge (June 1 - July 30, 2025), exploring new technologies and building impactful projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="container py-5">
+        <h2 class="text-center mb-5">Education Journey</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="education-card current">
+                                <div class="education-icon">
+                                    <i class="bi bi-mortarboard-fill"></i>
+                                </div>
+                                <h3>Bachelor of Computer Science</h3>
+                                <p class="institution">Patan Multiple Campus</p>
+                                <p class="year">Running</p>
+                                <p class="description">Focusing on Software Engineering, Data Structures, and Web Development</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="education-card">
+                                <div class="education-icon">
+                                    <i class="bi bi-book-fill"></i>
+                                </div>
+                                <h3>+2 Science</h3>
+                                <p class="institution">BlueBird Secondary School</p>
+                                <p class="year">2079</p>
+                                <p class="description">Completed higher secondary education with focus on Science and Mathematics</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-content">
+                            <div class="education-card">
+                                <div class="education-icon">
+                                    <i class="bi bi-pencil-fill"></i>
+                                </div>
+                                <h3>School Level Education</h3>
+                                <p class="institution">Danphe English School</p>
+                                <p class="year">2076</p>
+                                <p class="description">Completed secondary education with excellent academic performance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container py-5">
+        <h2 class="text-center mb-5">Skills</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="skills-card p-4 h-100">
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="bi bi-code-slash fs-2 me-3"></i>
+                        <h3 class="mb-0">Frontend Development</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="skill-name">HTML & CSS</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mt-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="skills-card p-4 h-100">
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="bi bi-box fs-2 me-3"></i>
+                        <h3 class="mb-0">Modern Technologies</h3>
+                    </div>
+                    <div class="skill-item">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="skill-name">React.js (Learning)</span>
+                            <span class="skill-percentage">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mt-4">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="skill-name">Responsive Design</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2 class="text-center mb-5">Projects</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="bi bi-code-square fs-2 mb-3"></i>
+                        <h3 class="project-title">Portfolio Website</h3>
+                    </div>
+                    <p class="project-description">A modern portfolio website showcasing my skills and projects. Built with a focus on minimalist design and smooth interactions.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag"><i class="bi bi-filetype-html"></i> HTML</span>
+                        <span class="tech-tag"><i class="bi bi-filetype-css"></i> CSS</span>
+                        <span class="tech-tag"><i class="bi bi-filetype-js"></i> JavaScript</span>
+                    </div>
+                    <div class="project-links mt-4">
+                        <a href="#" class="btn-link"><i class="bi bi-github"></i> View Code</a>
+                        <a href="#" class="btn-link"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="project-card coming-soon">
+                    <div class="project-header">
+                        <i class="bi bi-hourglass-split fs-2 mb-3"></i>
+                        <h3 class="project-title">More Projects Coming Soon</h3>
+                    </div>
+                    <p class="project-description">Currently working on exciting new projects. Stay tuned for updates!</p>
+                    <div class="project-tech coming-soon-tags">
+                        <span class="tech-tag"><i class="bi bi-stars"></i> Future</span>
+                        <span class="tech-tag"><i class="bi bi-lightning"></i> Innovation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container py-5">
+        <h2 class="text-center mb-5">Get In Touch</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="contact-card p-4">
+                    <div class="contact-header text-center mb-4">
+                        <i class="bi bi-envelope-paper-heart fs-1 mb-3"></i>
+                        <p class="lead">Let's collaborate on something amazing together!</p>
+                    </div>
+                    <form id="contact-form" class="needs-validation" novalidate>
+                        <div class="mb-4">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" name="from_name" placeholder="Your Name" required>
+                                <label for="name">Your Name</label>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="email" name="from_email" placeholder="Your Email" required>
+                                <label for="email">Your Email</label>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <div class="form-floating">
+                                <textarea class="form-control" id="message" name="message" placeholder="Your Message" style="height: 150px" required></textarea>
+                                <label for="message">Your Message</label>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-custom btn-lg">
+                                <i class="bi bi-send me-2"></i>Send Message
+                            </button>
+                        </div>
+                    </form>
+                    <div class="contact-social">
+                        <div class="social-links d-flex justify-content-center">
+                            <a href="https://linkedin.com/in/yourprofile" class="social-icon linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://twitter.com/yourprofile" class="social-icon twitter" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                            <a href="https://github.com/rajeshchauhdary/desktop-tutorial.git" class="social-icon github" target="_blank"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid">
+        <div class="row py-5 justify-content-center text-center">
+            <div class="col-md-6">
+                <div class="footer-content">
+                    <h4 class="mb-4">Let's Build Something Amazing Together</h4>
+                    <div class="footer-social mb-4">
+                        <a href="https://x.com/rajesh354422558?s=09" class="social-icon" target="_blank" title="Twitter"><i class="bi bi-twitter-x"></i></a>
+                        <a href="https://www.linkedin.com/in/rajesh-chaudhary-9a6242273" class="social-icon" target="_blank" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                    <p class="footer-text">&copy; 2024 Rajesh Chaudhary. All rights reserved.</p>
+                    <p class="footer-challenge">Currently participating in LSPP 2025 Challenge</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
